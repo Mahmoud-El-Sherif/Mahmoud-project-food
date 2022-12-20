@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.685)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.main-nav li{
+    margin-left: 20px;
+}
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-nav li a:hover{
+    color: rgba(255, 166, 0, 0.884);
+    text-decoration: underline;
+}
+.hero-box{
+  
+    position: absolute;
+    top: 40%;
+
+
+}
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.btn
+{
+    border: solid 2px orange;
+    margin-right: 15px;
+    padding: 10px 20px;
+    color: orange;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: orange; 
+}
+section{
+    padding: 40px 0;
+
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+
+}
+hr{
+    width: 100px;
+    margin: 15px auto;
+    border: solid 2px orange;
+    background-color: orange;
+    border-radius: 3px;
+}
+.features-desc{
+    width: 60%;
+    text-align: center;
+    margin: 15px auto;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.feat i{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.feat h3{
+    margin-bottom: 10px;
+    font-size: 15px;
+   
+}
+.feat p{
+    line-height: 1.5;
+}
+.meal{
+    padding: 0px;
+    background-color: black;
+}
+.meal img{
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: .6;
+   
+}
+.meal img:hover{
+    opacity: 2;
+}
+.left-work{
+    text-align: right;
+}
+.left-work img{
+    width: 40%;
+} 
+.step{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.step h4{
+    margin-right: 20px;
+    border: solid 3px orange;
+    padding: 10px;
+    border-radius: 50%;
+}
+.step p{
+ line-height: 20px;
+}
+.apps{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.apps img{
+    height: 50px;
+    margin-left: 10px;
+}
+.city img{
+    width: 100%;
+}
+.city h3{
+    margin-bottom: 10px;
+}
+.city-info i{
+    color: orange;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.city-info a{
+    color: orange;
+}
+#testimonials{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.685)) , url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    
+    
+}
+#testimonials h2{
+    
+    margin-top: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+#testimonials p{
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+#testimonials i{
+    font-size: 25px;
+}
+#testimonials img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+form{
+    margin-top: 50px;
+}
+input[type=text] , input[type=Email] , select ,textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+label{
+   font-size: 1rem;
+   color: #000;
+   font-weight: bold;
+}
+
+input[type=checkbox]{
+    margin-bottom: 10px;
+}
+footer{
+    padding: 50px 0;
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+}
+.footer-nav , .social-nav{
+    list-style: none;
+    display: flex;
+}
+.footer-nav li , .social-nav li{
+    margin-left: 20px;
+  
+}
+.footer-nav li a, .social-nav li a{
+    text-decoration: none;
+    color: #ddd;
+}
+.footer-nav li a:hover, .social-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.social-nav{
+    justify-content: end;
+}
